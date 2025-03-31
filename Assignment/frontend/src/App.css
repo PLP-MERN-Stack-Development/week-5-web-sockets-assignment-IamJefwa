@@ -1,0 +1,69 @@
+/* frontend/src/App.css */
+body {
+  font-family: 'pt mono';
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.markdown-preview h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.markdown-preview h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-preview h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.markdown-preview p {
+  margin-bottom: 1rem;
+}
+
+.markdown-preview ul, .markdown-preview ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.markdown-preview ul li {
+  list-style-type: disc;
+}
+
+.markdown-preview ol li {
+  list-style-type: decimal;
+}
+
+.markdown-preview blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 1rem;
+  margin-left: 0;
+  color: #666;
+}
+
+.markdown-preview code {
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+.markdown-preview pre {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 3px;
+  overflow-x: auto;
+}
+
+.markdown-preview a {
+  color: #0066cc;
+  text-decoration: underline;
+}
